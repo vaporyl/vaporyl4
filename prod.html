@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+
+
+<html>
+    <head>
+        <title>Black Hoodie</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel= "stylesheet" href= "design.css">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap');
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+                <a href="#" onclick="openSideMenu()">
+                    <img src = "img/navicon.png" width="30em" height="30em">
+                </a>
+        </nav>
+
+        <div id="sidemenu" class="sidenav">
+            <a href="#" class="close" onclick="closeSideMenu()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="desc.html">Products</a>
+        </div>
+
+        <div class="cent">
+            <h1 id="sub" style="margin-top:-4vh;">BLACK SPACE HOODIE</h1>
+            <img src="img/merch1.png" width="500vh" height="500vh" style="margin-top:-5vh; margin-bottom:-6vh;">
+            <br>
+            <p id="desuzi" style="margin-bottom:-2vh;">Swag Lil Uzi Vert merch with funny aliens! What's not to love!</p>
+            <br>
+            <button id="buy2" onclick="window.location.href='#';">Add to Cart</button>
+        </div>
+
+        <footer>
+            <h4>&copy; 2022 Not Really Copyrighted TBH</h4>
+        </footer>
+
+        <script>
+            function openSideMenu(){
+                document.getElementById('sidemenu').style.width = '200px';
+            }
+             function closeSideMenu(){
+                document.getElementById('sidemenu').style.width = '0px';
+            }
+        </script>
+
+    </body>
+          
+
+</html>

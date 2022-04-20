@@ -1,0 +1,237 @@
+header {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 80vh;
+    background-image:url(img/uzi.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main2 header {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 80vh;
+    background-image:url(img/uzi2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main3 header {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 80vh;
+    background-image:url(img/uzi3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    -webkit-animation: bg 10s infinite;
+    animation: bg 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+#title{
+    text-align: center;
+    color:white;
+    font-size: 20vh;
+    padding-top:20vh;
+    margin-top:-1vh;
+    font-family: 'Square Peg', cursive;
+}
+
+#sub{
+    text-align: center;
+    color: #240077;
+    font-size: 10vh;
+    padding-top:5vh;
+    margin-top:-1vh;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cent{
+    text-align: center;
+}
+
+.navbar {
+    background-color: #6200ff;
+    overflow: hidden;
+    height: 3.8em;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #a95eff;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(213, 198, 255, 0.8);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.8s;
+    transition-timing-function: ease-in-out;
+    font-family: 'Square Peg', cursive;
+}
+
+.sidenav a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size:5vh;
+    color: #240077;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.sidenav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left 0.8s;
+    overflow: hidden;
+    width: 100%;
+    transition-timing-function: ease-in-out;
+}
+
+#main2 {
+    transition: margin-left 0.8s;
+    overflow: hidden;
+    width: 100%;
+    transition-timing-function: ease-in-out;
+}
+
+#main3 {
+    transition: margin-left 0.8s;
+    overflow: hidden;
+    width: 100%;
+    transition-timing-function: ease-in-out;
+}
+
+#gal{
+    padding-top:10vh;
+}
+
+#buy{
+    color:#ffffff;
+    background-color:#240077;
+    border: none;
+    width:20vh;
+    height:8vh;
+    font-size:5vh;
+    margin-top:2vh;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+
+#buy:hover{
+    color:#ffffff;
+    background-color:#6d3eda;
+}
+
+#buy2{
+    color:#ffffff;
+    background-color:#240077;
+    border: none;
+    width:25vh;
+    height:8vh;
+    font-size:5vh;
+    margin-top:2vh;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+
+#buy2:hover{
+    color:#ffffff;
+    background-color:#6d3eda;
+}
+
+#desuzi{
+    font-family: 'Bebas Neue', cursive;
+    color: #240077;
+    font-size:8vh;
+}
+
+footer {
+    height: 4vh;
+    background-color: #240077;
+    color: #fff;
+    font-size: 3vh;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom:-50px;
+    text-align: center;
+}
+
+@media(max-width:568px){
+    .navbarnav{
+        display: none;
+    }
+    
+    header {
+        height: 80vh;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+@keyframes bg {
+    0% {
+        background-color:#ff6aeb
+    }
+
+    25% {
+        background-color: #bf70ff
+    }
+
+    50% {
+        background-color: #7494ff
+    }
+
+    75% {
+        background-color: rgb(128, 240, 255)
+    }
+
+    100% {
+        background-color: #75ffaa
+    }
+}

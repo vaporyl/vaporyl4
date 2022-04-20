@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel= "stylesheet" href= "design.css">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap');
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+                <a href="#" onclick="openSideMenu()">
+                    <img src = "img/navicon.png" width="30em" height="30em">
+                </a>
+        </nav>
+
+        <div id="sidemenu" class="sidenav">
+            <a href="#" class="close" onclick="closeSideMenu()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="desc.html">Products</a>
+        </div>
+
+        <div id="main">
+            <header>
+                <h1 id="title">Lil Uzi Vert</h1>
+            </header>
+        </div>
+
+        <div class="cent">
+            <h1 id="sub">FEATURED PRODUCTS</h1>
+            <span>
+                <a href="desc.html"><img src="img/merch1.png" width="500vh" height="500vh" onmouseover="this.src='img/merchshow1.png'" onmouseout="this.src='img/merch1.png'"></a>
+                <a href="desc.html"><img src="img/merch2.png" width="500vh" height="500vh" onmouseover="this.src='img/merchshow2.png'" onmouseout="this.src='img/merch2.png'"></a>
+                <a href="desc.html"><img src="img/merch3.png" width="500vh" height="500vh" onmouseover="this.src='img/merchshow3.png'" onmouseout="this.src='img/merch3.png'"></a>
+            </span>
+            <h1 id="sub" id="gal">GALLERY</h1>
+            <span>
+                <img src="img/tour1.png" width="500vh" height="300vh">
+                <img src="img/tour2.png" width="500vh" height="300vh">
+                <img src="img/tour3.png" width="500vh" height="300vh">
+            </span>
+        </div>
+
+        <footer>
+            <h4>&copy; 2022 Not Really Copyrighted TBH</h4>
+        </footer>
+
+        <script>
+            function openSideMenu(){
+                document.getElementById('sidemenu').style.width = '200px';
+            }
+             function closeSideMenu(){
+                document.getElementById('sidemenu').style.width = '0px';
+            }
+        </script>
+
+    </body>
+          
+
+</html>
